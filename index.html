@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Fontaweasome -->
+    
+    <!-- Include Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body class="transition-colors duration-500">
+    <!-- Navbar -->
+    <nav
+      class="fixed top-0 left-1/2 z-10 h-[4.5rem] w-[85%] rounded-none border border-gray-300 border-opacity-40 bg-gray-300 bg-opacity-80 shadow-lg shadow-black/[0.03] sm:top-6 sm:h-[3.25rem] sm:w-[85%] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75"
+      style="
+        opacity: 1;
+        transform: translateX(-50%) translateY(0px) translateZ(0px);
+        padding: 20px 20px;
+      "
+    >
+      <div class="container mx-auto flex justify-between items-center h-full">
+        <div>
+          <a
+            href="#home"
+            class="mr-6 navbar-link px-4 py-2 rounded-md text-gray-800 hover:text-white hover:bg-gray-700 transition duration-300"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="mr-6 navbar-link px-4 py-2 rounded-md text-gray-800 hover:text-white hover:bg-gray-700 transition duration-300"
+            >About</a
+          >
+          <a
+            href="#projects"
+            class="mr-6 navbar-link px-4 py-2 rounded-md text-gray-800 hover:text-white hover:bg-gray-700 transition duration-300"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="navbar-link px-4 py-2 rounded-md text-gray-800 hover:text-white hover:bg-gray-700 transition duration-300"
+            >Contact</a
+          >
+          <!-- Added Contact link -->
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section
+      id="home"
+      class="fullscreen flex flex-col items-center justify-center relative z-0"
+    >
+      <div class="mb-8">
+        <img
+          src="images/fixed.jpg"
+          alt="Profile Picture"
+          class="rounded-full border-4 border-gray-300 h-32 w-32 object-cover object-center"
+        />
+      </div>
+      <h1 class="text-4xl font-bold mb-4 text-center animate-pulse">
+        Hello, I am Achmad Maulana Farizi
+      </h1>
+      <p class="text-lg text-center">
+        Passionate about technology and software development
+      </p>
+
+      <i class="fa-brands fa-instagram"></i>
+
+      <!-- Social Icons -->
+      <div class="mt-8 flex justify-center space-x-4">
+        <!-- Instagram -->
+        <a
+          href="https://www.instagram.com/achmf_/"
+          target="_blank"
+          class="group inline-block p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors duration-300 transform hover:scale-110"
+        >
+          <img
+            src="images/instagram.svg"
+            class="h-6 w-6 text-gray-500 group-hover:text-gray-700 transition-colors duration-300"
+          >
+      </img>
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/achmf/"
+          target="_blank"
+          class="group inline-block p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors duration-300 transform hover:scale-110"
+        >
+          <img
+            src="images/linkedin.svg"
+            class="h-6 w-6 text-gray-500 group-hover:text-gray-700 transition-colors duration-300"
+          >
+      </img>
+        </a>
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/kromos1412?tab=repositories"
+          target="_blank"
+          class="group inline-block p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors duration-300 transform hover:scale-110"
+        >
+          <img
+            src="images/square-github.svg"
+            class="h-6 w-6 text-gray-500 group-hover:text-gray-700 transition-colors duration-300"
+          >
+      </img>
+        </a>
+
+        <!-- CV Downloader -->
+        <a
+          href="#"
+          class="group inline-block p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors duration-300 transform hover:scale-110"
+        >
+          <img
+            src="images/file-regular.svg"
+            target="_blank"
+            class="h-6 w-6 text-gray-500 group-hover:text-gray-700 transition-colors duration-300"
+          >
+      </img>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="fullscreen relative z-0">
+      <div class="container mx-auto">
+        <h1 class="text-4xl font-bold mb-4">About Me</h1>
+        <p class="text-lg mb-8">
+          I'm an undergraduate Information Systems student at Universitas
+          Pembangunan Nasional Veteran Jakarta. I'm passionate about technology
+          and software development. I'm proficient in programming languages such
+          as Java, C, C++, and Kotlin. I also have experience in learning
+          website development, and I'm eager to continue expanding my skills in
+          this area.
+        </p>
+        <p class="text-lg">
+          Feel free to explore my portfolio and projects to learn more about my
+          work!
+        </p>
+
+        <!-- Programming Language Buttons -->
+<div class="mt-8 flex justify-center space-x-4">
+    <!-- Java -->
+    <a href="https://www.java.com/en/" target="_blank" class="group inline-block p-3 rounded-lg bg-yellow-500 hover:bg-yellow-600 transition-colors duration-300 transform hover:scale-110">
+      <span class="text-lg font-semibold text-white group-hover:text-gray-100 transition-colors duration-300">Java</span>
+    </a>
+  
+    <!-- C -->
+    <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" class="group inline-block p-3 rounded-lg bg-blue-500 hover:bg-blue-600 transition-colors duration-300 transform hover:scale-110">
+      <span class="text-lg font-semibold text-white group-hover:text-gray-100 transition-colors duration-300">C</span>
+    </a>
+  
+    <!-- C++ -->
+    <a href="https://id.wikipedia.org/wiki/C%2B%2B" target="_blank" class="group inline-block p-3 rounded-lg bg-red-500 hover:bg-red-600 transition-colors duration-300 transform hover:scale-110">
+      <span class="text-lg font-semibold text-white group-hover:text-gray-100 transition-colors duration-300">C++</span>
+    </a>
+  
+    <!-- Kotlin -->
+    <a href="https://kotlinlang.org" target="_blank" class="group inline-block p-3 rounded-lg bg-purple-500 hover:bg-purple-600 transition-colors duration-300 transform hover:scale-110">
+      <span class="text-lg font-semibold text-white group-hover:text-gray-100 transition-colors duration-300">Kotlin</span>
+    </a>
+  </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="fullscreen relative z-0">
+  <!-- Video Background -->
+  <video class="fixed top-0 left-0 w-full h-full object-cover z-0" autoplay muted loop>
+    <source src="images/vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <div class="container mx-auto relative z-10">
+    <!-- Your Projects Content Goes Here -->
+    <h1 class="text-4xl font-bold mb-8 text-white">Projects</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Project Cards -->
+      <!-- Card 1 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+        <!-- Project Image -->
+        <img src="images/project_java.png" alt="Project 1" class="w-full h-56 object-cover object-center">
+        <!-- Project Description -->
+        <div class="p-6">
+          <h2 class="text-xl font-semibold mb-2 text-gray-700">Project 1</h2>
+          <p class="text-gray-700">Description of project 1 goes here.</p>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+        <!-- Project Image -->
+        <img src="images/project_kotlin.png" alt="Project 2" class="w-full h-56 object-cover object-center">
+        <!-- Project Description -->
+        <div class="p-6">
+          <h2 class="text-xl font-semibold mb-2 text-gray-700">Project 2</h2>
+          <p class="text-gray-700">Description of project 2 goes here.</p>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden transition duration-300 transform hover:-translate-y-1 hover:shadow-xl">
+        <!-- Project Image -->
+        <img src="images/project_c.png" alt="Project 3" class="w-full h-56 object-cover object-center">
+        <!-- Project Description -->
+        <div class="p-6">
+          <h2 class="text-xl font-semibold mb-2 text-gray-700">Project 3</h2>
+          <p class="text-gray-700">Description of project 3 goes here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="fullscreen flex flex-col items-center justify-center relative z-0"
+    >
+    <h1 class="text-4xl font-bold mb-4 mt-10">Contact Me</h1>
+    <p class="mb-5">Please contact me directly at <a href="mailto:farizi1412@gmail.com" class="text-blue-400">farizi1412@gmail.com</a> or through this form.</p>
+      <div class="w-1/2 px-4 py-8 bg-white shadow-lg rounded-lg">
+        <form class="w-full">
+          <div
+            class="mb-4 transition-all duration-300 ease-in-out focus-within:text-gray-700 focus-within:border-blue-500"
+          >
+            <label
+              for="email"
+              class="block text-gray-700 text-sm font-bold mb-2"
+              >Email</label
+            >
+            <input
+              id="email"
+              type="email"
+              placeholder="Your email"
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 focus:outline-none focus:bg-white focus:border-gray-500"
+            />
+          </div>
+          <div
+            class="mb-4 transition-all duration-300 ease-in-out focus-within:text-gray-700 focus-within:border-blue-500"
+          >
+            <label
+              for="message"
+              class="block text-gray-700 text-sm font-bold mb-2"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Your message"
+              class="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 focus:outline-none focus:bg-white focus:border-gray-500"
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            >
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Toggle Theme Button -->
+    <button id="theme-toggle" class="px-4 py-2 rounded-full bg-gray-300 bg-opacity-80 fixed bottom-5 right-5 hover:bg-gray-500 transition duration-300">
+    <img id="theme-icon" src="images/moon-regular.svg" alt="Theme Icon">
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>
